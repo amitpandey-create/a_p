@@ -1,6 +1,0 @@
-streamlit
-pymongo
-pandas
-python-dateutil
-# Uncomment to enable bcrypt password hashing (recommended)
-# bcrypt
