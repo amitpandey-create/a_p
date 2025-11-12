@@ -1,0 +1,30 @@
+# requirements.txt for Streamlit Sales Management App
+# --------------------------------------------------
+streamlit
+pymongo
+pandas
+python-dateutil
+pymongo import MongoClient
+# Uncomment for password hashing support
+# bcrypt
+# Optional local secrets management
+# python-dotenv
+
+# --------------------------------------------------
+# .streamlit/secrets.toml (create this file separately)
+# --------------------------------------------------
+# Example secrets.toml file for your MongoDB configuration.
+# Save this in a folder named `.streamlit` at the root of your project.
+
+# [mongo]
+# uri = "mongodb+srv://<username>:<password>@cluster0.example.mongodb.net/?retryWrites=true&w=majority"
+# database = "sales_db"
+# users_collection = "users"
+# products_collection = "products"
+# customers_collection = "customers"
+# sales_collection = "sales"
+
+# Usage:
+#   - Streamlit Cloud will read this automatically.
+#   - For local testing, place `.streamlit/secrets.toml` in your project directory.
+#   - DO NOT commit real credentials to GitHub or public repos.
